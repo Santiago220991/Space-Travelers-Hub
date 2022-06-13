@@ -13,7 +13,7 @@ function Header() {
           <NavLink className={(navData) => (navData.isActive ? 'active' : 'none')} to="/">Rockets</NavLink>
         </div>
         <div className="Missions">
-          Missions
+          <NavLink className={(navData) => (navData.isActive ? 'active' : 'none')} to="/Missions">Missions</NavLink>
         </div>
         <div className="Profile">
           <NavLink className={(navData) => (navData.isActive ? 'active' : 'none')} to="/Profile">Profile</NavLink>
