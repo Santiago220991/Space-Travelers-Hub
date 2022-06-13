@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import planetLogo from '../planet.png';
 
 function Header() {
@@ -14,7 +15,7 @@ function Header() {
           Missions
         </div>
         <div className="Profile">
-          Profile
+          <NavLink activeClassName="active" to="/Profile">Profile</NavLink>
         </div>
       </nav>
     </header>
