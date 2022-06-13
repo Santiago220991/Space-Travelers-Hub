@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Profile from './components/Profile';
 import RocketCard from './components/RocketCard';
+import Missions from './components/Missions';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<RocketCard />} />
+        <Route path="/Missions" element={<Missions />} />
         <Route path="Profile" element={<Profile />} />
       </Routes>
     </React.StrictMode>
