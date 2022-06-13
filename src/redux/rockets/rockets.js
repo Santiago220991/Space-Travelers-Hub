@@ -22,6 +22,7 @@ export const GetRocketAPI = () => async (dispatch) => {
   const rocketarr = [];
   const response = await fetch(URL);
   const responsearr = await response.json();
+  console.log(responsearr);
   responsearr.forEach((element) => (rocketarr.push({
     id: element.rocket_id,
     name: element.rocket_name,
