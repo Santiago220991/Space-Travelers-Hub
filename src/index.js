@@ -8,6 +8,7 @@ import Profile from './components/Profile';
 import RocketCard from './components/RocketCard';
 import { GetRocketAPI } from './redux/rockets/rockets';
 import configureStore from './redux/configureStore';
+import Missions from './components/Missions';
 
 configureStore.dispatch(GetRocketAPI());
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
         <Header />
         <Routes>
           <Route path="/" element={<RocketCard />} />
+          <Route path="/Missions" element={<Missions />} />
           <Route path="/Profile" element={<Profile />} />
         </Routes>
       </React.StrictMode>
