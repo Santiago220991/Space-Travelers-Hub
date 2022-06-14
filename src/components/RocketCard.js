@@ -3,7 +3,7 @@ import './RocketCard.css';
 import { useSelector } from 'react-redux';
 
 const RocketCard = () => {
-  const rocketlist = useSelector((state) => state.RocketReducer);
+  const rocketlist = useSelector((state) => state.rocket);
   return (
     rocketlist.map((element) => (
       <div className="rocket-card" key={element.id}>
