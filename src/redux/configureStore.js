@@ -1,9 +1,14 @@
-import { createStore, combineReducers, applyMiddleware } from 'redux';
+import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import RocketReducer from './rockets/rockets';
+import MissionsReducer from './missions/missions';
 
-const root = combineReducers({ RocketReducer });
+const Store = configureStore({
+  reducer: {
+    rocket: RocketReducer,
+    missions: MissionsReducer,
+  },
+  middleware: [thunk],
+});
 
-const configureStore = createStore(root, applyMiddleware(thunk));
-
-export default configureStore;
+export default Store;

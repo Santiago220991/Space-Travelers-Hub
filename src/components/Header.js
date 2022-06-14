@@ -5,10 +5,10 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <div>
-        <img src={planetLogo} width="20" height="20" alt="" />
-      </div>
       <nav className="nav">
+        <div>
+          <img src={planetLogo} width="40" height="40" alt="" />
+        </div>
         <div className="Rockets">
           <NavLink className={(navData) => (navData.isActive ? 'active' : 'none')} to="/">Rockets</NavLink>
         </div>
