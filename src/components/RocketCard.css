@@ -50,3 +50,13 @@
   cursor: pointer;
   border: solid 1px black;
 }
+
+.reserved-badge{
+  background-color: rgb(1, 158, 158);
+  color: white;
+  border-radius: 6px;
+  margin-right: 5px;
+  font-size: 12;
+  padding-left: 5px;
+  padding-right: 5px;
+}
