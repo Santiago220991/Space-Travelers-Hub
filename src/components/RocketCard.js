@@ -24,8 +24,10 @@ const RocketCard = () => {
         <div className="rocket-div">
           <p className="name-rocket">{element.name}</p>
           <p className="info-rocket">{element.reserved && (<span className=''>Reserved</span>)}{element.info}</p>
-          <button className="reserve-rocket" type="button" onClick={reserve}>Reserve Rocket</button>
-          <button className="unreserve-rocket" type="button" onClick={unreserve}>Cancel Reservation</button>
+          {(element.reserved === false || element.reserved === undefined)
+          ? <button className="reserve-rocket" type="button" onClick={reserve}>Reserve Rocket</button>
+          :<button className="unreserve-rocket" type="button" onClick={unreserve}>Cancel Reservation</button>
+          }
         </div>
       </div>
     ))
