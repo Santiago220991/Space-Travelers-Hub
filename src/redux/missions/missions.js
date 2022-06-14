@@ -15,7 +15,6 @@ const MissionsReducer = (state = [], action) => {
           newstate.push({ ...state[i], member: !state[i].member });
         }
       }
-      console.log(action.payload, newstate);
       return newstate;
     default:
       return state;

@@ -60,11 +60,28 @@
   color: white;
 }
 
+.NotAMember {
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 5px;
+  background-color: rgb(139, 139, 139);
+  padding: 5px;
+  color: white;
+}
+
 .LeaveMission {
   border: 1px solid red;
   border-radius: 2px;
   background-color: white;
   padding: 5px;
   color: red;
+  cursor: pointer;
+}
+
+.JoinMission {
+  border: 1px solid green;
+  border-radius: 2px;
+  background-color: white;
+  padding: 5px;
+  color: green;
   cursor: pointer;
 }
