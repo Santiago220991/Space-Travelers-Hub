@@ -1,4 +1,4 @@
-.header{
+.header {
   padding-left: 2%;
   padding-right: 2%;
   border-bottom: solid 1px rgb(184, 178, 178);
@@ -21,15 +21,15 @@
   justify-content: space-between;
 }
 
-.logo-title{
+.logo-title {
   display: flex;
   align-items: center;
   font-size: 32px;
   font-weight: bolder;
 }
 
-.menu{
-  display:flex;
+.menu {
+  display: flex;
   column-gap: 30px;
   margin-right: 10%;
 }

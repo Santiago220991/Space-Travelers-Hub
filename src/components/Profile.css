@@ -1,28 +1,28 @@
-.reserved-lists{
-    display: flex;
-    align-items: flex-start;
-    margin-left: 5%;
-    margin-left: 5%;
+.reserved-lists {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.rockets-reserved-list{
-    border: solid 1px rgb(179, 174, 174);
-    border-bottom: none;
-    border-radius: 2px;
+.rockets-reserved-list {
+  border: solid 1px rgb(179, 174, 174);
+  border-bottom: none;
+  border-radius: 2px;
 }
 
-.rockets-list-title{
-    margin-top: 0;
-    font-size: 24px;
-    font-weight: bold;
+.rockets-list-title {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.rockets-reserved-list-container{
-    margin-left: 35%;
-    width: 40%;
+.rockets-reserved-list-container {
+  margin-left: 35%;
+  width: 40%;
 }
 
-.rocket-reserved{
-    border-bottom: solid 1px rgb(179, 174, 174);
-    height: 30px;
+.rocket-reserved {
+  border-bottom: solid 1px rgb(179, 174, 174);
+  height: 30px;
 }
