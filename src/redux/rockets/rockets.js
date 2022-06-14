@@ -1,4 +1,5 @@
 const RESERVE = 'RESERVE';
+const UNRESERVE = 'UNRESERVE';
 const GET_ROCKET = 'GET_ROCKET';
 const initState = [];
 const URL = 'https://api.spacexdata.com/v3/rockets';
@@ -15,6 +16,14 @@ const RocketReducer = (state = initState, action) => {
       console.log(newState);
       return newState;
     }
+    case UNRESERVE: {
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.payload) { return rocket; }
+        return { ...rocket, reserved: false };
+      });
+      console.log(newState);
+      return newState;
+    }
     default:
       return state;
   }
@@ -27,6 +36,11 @@ export const GetRocket = (list) => ({
 
 export const ReserveRocket = (id) => ({
   type: RESERVE,
+  payload: id,
+});
+
+export const UnreserveRocket = (id) => ({
+  type: UNRESERVE,
   payload: id,
 });
 
