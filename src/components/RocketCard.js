@@ -4,9 +4,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { ReserveRocket } from '../redux/rockets/rockets';
 
 const RocketCard = () => {
-<<<<<<< HEAD
-  const rocketlist = useSelector((state) => state.rocket);
-=======
   const dispatch = useDispatch();
   const rocketlist = useSelector((state) => state.rocket);
 
@@ -15,7 +12,6 @@ const RocketCard = () => {
     dispatch(ReserveRocket(rocketid));
   };
 
->>>>>>> 0e8289dbc599f2717cfd26ac0246af9f03a10a51
   return (
     rocketlist.map((element) => (
       <div className="rocket-card" key={element.id} id={element.id}>

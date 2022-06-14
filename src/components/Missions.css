@@ -62,8 +62,9 @@
 
 .LeaveMission {
   border: 1px solid red;
-  border-radius: 1px;
+  border-radius: 2px;
   background-color: white;
   padding: 5px;
   color: red;
+  cursor: pointer;
 }
