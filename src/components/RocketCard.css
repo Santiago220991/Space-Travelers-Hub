@@ -1,15 +1,24 @@
 .rocket-card {
   display: flex;
+  margin-bottom: 15px;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .img-rocket {
-  width: 210px;
+  width: 206px;
   height: 155px;
+}
+
+.rocket-div{
+  margin-left: 15px;
 }
 
 .name-rocket {
   font-size: 16px;
   font-weight: bolder;
+  margin-top: 0;
 }
 
 .info-rocket {
