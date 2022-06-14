@@ -1,3 +1,14 @@
 .active {
   color: red;
+  text-decoration: underline;
+}
+
+.none {
+  color: blue;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
