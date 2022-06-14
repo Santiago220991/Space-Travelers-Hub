@@ -13,7 +13,6 @@ const RocketReducer = (state = initState, action) => {
         if (rocket.id !== action.payload) { return rocket; }
         return { ...rocket, reserved: true };
       });
-      console.log(newState);
       return newState;
     }
     case UNRESERVE: {
@@ -21,7 +20,6 @@ const RocketReducer = (state = initState, action) => {
         if (rocket.id !== action.payload) { return rocket; }
         return { ...rocket, reserved: false };
       });
-      console.log(newState);
       return newState;
     }
     default:
