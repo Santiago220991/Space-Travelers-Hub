@@ -5,7 +5,7 @@ const initState = [];
 const URL = 'https://api.spacexdata.com/v3/rockets';
 
 const RocketReducer = (state = initState, action) => {
-  switch (action) {
+  switch (action.type) {
     case GET_ROCKET:
       return action.payload;
     default:
