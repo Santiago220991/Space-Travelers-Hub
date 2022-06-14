@@ -1,4 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
+import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import RocketReducer from './rockets/rockets';
 import MissionsReducer from './missions/missions';
@@ -8,7 +9,7 @@ const Store = configureStore({
     rocket: RocketReducer,
     missions: MissionsReducer,
   },
-  middleware: [thunk],
+  middleware: [logger, thunk],
 });
 
 export default Store;
