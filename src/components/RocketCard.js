@@ -23,9 +23,13 @@ const RocketCard = () => {
         <img className="img-rocket" src={element.flickr_images} alt="rocket" />
         <div className="rocket-div">
           <p className="name-rocket">{element.name}</p>
-          <p className="info-rocket">{element.info}</p>
-          <button className="reserve-rocket" type="button" onClick={reserve}>Reserve Rocket</button>
-          <button className="unreserve-rocket" type="button" onClick={unreserve}>Cancel Reservation</button>
+          <p className="info-rocket">
+            {element.reserved && (<span className="reserved-badge">Reserved</span>)}
+            {element.info}
+          </p>
+          {(element.reserved === false || element.reserved === undefined)
+            ? <button className="reserve-rocket" type="button" onClick={reserve}>Reserve Rocket</button>
+            : <button className="unreserve-rocket" type="button" onClick={unreserve}>Cancel Reservation</button>}
         </div>
       </div>
     ))
