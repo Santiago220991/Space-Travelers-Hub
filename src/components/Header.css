@@ -1,14 +1,35 @@
+.header {
+  padding-left: 2%;
+  padding-right: 2%;
+  border-bottom: solid 1px rgb(184, 178, 178);
+  margin-bottom: 20px;
+}
+
 .active {
-  color: red;
+  color: rgb(89, 0, 255);
   text-decoration: underline;
 }
 
 .none {
-  color: blue;
+  color: rgb(0, 195, 255);
   text-decoration: none;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.menu {
+  display: flex;
+  column-gap: 30px;
+  margin-right: 10%;
 }
