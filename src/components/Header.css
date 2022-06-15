@@ -18,7 +18,7 @@
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .logo-title {
@@ -26,10 +26,11 @@
   align-items: center;
   font-size: 32px;
   font-weight: bolder;
+  column-gap: 20px;
 }
 
 .menu {
   display: flex;
   column-gap: 30px;
-  margin-right: 10%;
+  margin-left: calc(50vw - 200px);
 }
