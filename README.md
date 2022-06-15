@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Javascript Capstone Live Demo](https:)
+[Javascript Capstone Live Demo](https://santiago-space-travelers-hub.netlify.app/)
 
 ## Getting Started
 
