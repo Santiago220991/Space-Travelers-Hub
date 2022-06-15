@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="header"
+>
+  <nav
+    className="nav"
+  >
+    <div
+      className="logo-title"
+    >
+      <img
+        alt=""
+        height="40"
+        src="planet.png"
+        width="40"
+      />
+      <p>
+        Space Travelers' Hub
+      </p>
+    </div>
+    <div
+      className="menu"
+    >
+      <div
+        className="Rockets"
+      >
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+        >
+          Rockets
+        </a>
+      </div>
+      <div
+        className="Missions"
+      >
+        <a
+          className="none"
+          href="/Missions"
+          onClick={[Function]}
+        >
+          Missions
+        </a>
+      </div>
+      <div
+        className="Profile"
+      >
+        <a
+          className="none"
+          href="/Profile"
+          onClick={[Function]}
+        >
+          Profile
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`Mission renders correctly 1`] = `
+<div
+  className="row"
+  id="FF3864"
+>
+  <div
+    className="column1 MissionName cell"
+  >
+    Mission1
+  </div>
+  <div
+    className="column2 MissionDesc cell"
+  >
+    Description1
+  </div>
+  <div
+    className="column3 cell"
+  >
+    <span
+      className="NotAMember"
+    >
+      NOT A MEMBER
+    </span>
+  </div>
+  <div
+    className="column4 cell"
+  >
+    <button
+      className="JoinMission"
+      onClick={[Function]}
+      type="button"
+    >
+      Join Mission
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Missions renders correctly 1`] = `
+<div
+  className="missions"
+>
+  <div
+    className="titles"
+  >
+    <div
+      className="column1 cell"
+    >
+      Mission
+    </div>
+    <div
+      className="column2 cell"
+    >
+      Description
+    </div>
+    <div
+      className="column3 cell"
+    >
+      Status
+    </div>
+    <div
+      className="column4 cell"
+    >
+       
+    </div>
+  </div>
+</div>
+`;
