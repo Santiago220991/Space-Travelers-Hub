@@ -10,6 +10,8 @@
 - Join a missions.
 - Show a profile with rockets reserved and missions joined.
 
+![Space Traveler](https://user-images.githubusercontent.com/98363075/173917650-95e5ece8-2515-4cb1-b021-55ad6c27278b.png)
+
 ## Built With
 
 - HTML
