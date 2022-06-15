@@ -1,0 +1,36 @@
+.header {
+  padding-left: 2%;
+  padding-right: 2%;
+  border-bottom: solid 1px rgb(184, 178, 178);
+  margin-bottom: 20px;
+}
+
+.active {
+  color: rgb(89, 0, 255);
+  text-decoration: underline;
+}
+
+.none {
+  color: rgb(0, 195, 255);
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bolder;
+  column-gap: 20px;
+}
+
+.menu {
+  display: flex;
+  column-gap: 30px;
+  margin-left: calc(50vw - 200px);
+}
