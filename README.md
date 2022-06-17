@@ -2,12 +2,12 @@
 
 # Space Travelers' Hub
 
-> **This is a Single Page Application that shows a list of rockets and a list of misions. It also shows a profile with the rockets reserved and misssions joined. It uses a SpaceX API to get the data to show. The projects has the next features :**
+> **This is a Single Page Application that shows a list of rockets and a list of missions. It also shows a profile with the rockets reserved and missions joined. It uses a SpaceX API to get the data to show. The project has the next features:**
 
 - Show a list of rockets.
 - Show a list of missions.
 - Reserve a rocket.
-- Join a missions.
+- Join a mission.
 - Show a profile with rockets reserved and missions joined.
 
 ![Space Traveler](https://user-images.githubusercontent.com/98363075/173917650-95e5ece8-2515-4cb1-b021-55ad6c27278b.png)
@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Javascript Capstone Live Demo](https://santiago-space-travelers-hub.netlify.app/)
+[Space Traveler's Hub Live Demo](https://santiago-space-travelers-hub.netlify.app/)
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone the repository using the next link: https://github.com/Santiago220991/Space-Travelers-Hub.git
 - With your code editor open the folder where you cloned the project.
 - In your code editor terminal run `npm install` to install all the dependencies needed.
-- In your code editor terminal run `npm run start` to start the local server.
+- In your code editor terminal run `npm start` to start the local server.
 
 
 ## Authors
