@@ -59,8 +59,12 @@
 }
 
 .reserved-badge {
+  display:inline-block;
   background-color: rgb(1, 158, 158);
   color: white;
+  line-height: 20px;
+  height: 20px;
+  vertical-align: center;
   border-radius: 6px;
   margin-right: 5px;
   font-size: 12px;
@@ -72,7 +76,7 @@
 
 @keyframes enter-left {
   from{
-    transform: translate(-500px);
+    transform: translate(-1200px);
   }
   to{
     transform: translate(0);
@@ -81,7 +85,7 @@
 
 @keyframes enter-right {
   from{
-    transform: translate(+500px);
+    transform: translate(1200px);
   }
   to{
     transform: translate(0);
