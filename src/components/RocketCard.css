@@ -4,6 +4,13 @@
   align-items: flex-start;
   margin-left: 5%;
   margin-right: 5%;
+  animation-name: enter-left;
+  animation-duration: 2s;
+}
+
+.rocket-card:nth-child(even) {
+  animation-name: enter-right;
+  animation-duration: 2s;
 }
 
 .img-rocket {
@@ -59,4 +66,33 @@
   font-size: 12px;
   padding-left: 5px;
   padding-right: 5px;
+  animation-name: showing;
+  animation-duration: 1s;
+}
+
+@keyframes enter-left {
+  from{
+    transform: translate(-500px);
+  }
+  to{
+    transform: translate(0);
+  }
+}
+
+@keyframes enter-right {
+  from{
+    transform: translate(+500px);
+  }
+  to{
+    transform: translate(0);
+  }
+}
+
+@keyframes showing {
+  from {
+    background-color: transparent;
+    color: transparent;
+  }
+  to{
+  }
 }
